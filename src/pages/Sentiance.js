@@ -10,28 +10,34 @@ const ProjectDetails = () => (
     </div>
 
     <div className="Content">
-        <Metadata company="Sentiance" website="www.sentiance.com" year="2016-2018" keywords={['Objective-C', 
-        'Swift', 
-        'Core Data', 
-        'NSOperation', 
-        'XCTest']} />
+        <Metadata company="Sentiance" website="www.sentiance.com" year="2016-2018" keywords={[
+          'SDK',
+          'Objective-C', 
+          'Core Location',
+          'Core Motion',
+          'Core Data', 
+          'NSOperation', 
+          'Jenkins',
+          'Instruments',
+          'XCTest']} />
 
         <div className="Details"> 
         <img src="https://cl.ly/3dbf8e4a45a3/Sentiance.png" />
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        <p>
+        Sentiance develops a mobile SDK which interprets sensor data in real-time to infer user location, transport mode and base-level activity.
+        </p>
+
+        <p>The company turns these IOT sensor data into rich insights about people’s behavior and real-time context. Their SDK is used by +100K users. 
         </p>
 
         <p>
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         My task was to accurately track the user location in the background. I stored and uploaded sensor data with low battery impact (~5% daily). I increased the test coverage by 50% and then refactored the whole SDK.
         </p>
-
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+         I also had to conduct international clients support calls and interviewed dozens of candidates.
         </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        </p>
         </div>
     </div>
   </div>

@@ -10,28 +10,29 @@ const ProjectDetails = () => (
     </div>
 
     <div className="Content">
-        <Metadata company="Gengo" website="www.gengo.com" keywords={['Objective-C', 
-        'Swift', 
-        'Core Data', 
-        'NSOperation', 
-        'XCTest']} />
+        <Metadata company="Dilemme" website="" year="2014-2015" keywords={[
+          'Swift', 
+          'Auto Layout', 
+          'Storyboard', 
+          'Parse SDK',
+          'Facebook SDK',
+          'Sketch']} />
 
         <div className="Details"> 
         <img src="https://cl.ly/bf6d89c19bd8/Dilemme.png" />
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        <p>Dilemme is a fashion voting app and it was the first app I developped and designed.
         </p>
 
         <p>
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        I was accepted in a startup accelerator program thanks to it. I was selected as one of the 8 finalists out of 50 teams.
         </p>
 
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          I was relying on Parse SDK for the backend and unfortunately had to discontinue the app when Parse was shut down. Nevertheless, it was a very fun project and I was able to experiment a lot with animations and Sketch:
         </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        </p>
+        
         </div>
     </div>
   </div>

@@ -10,27 +10,29 @@ const ProjectDetails = () => (
     </div>
 
     <div className="Content">
-        <Metadata company="Dilemme" website="www.dilemme.co" keywords={['Objective-C', 
+        <Metadata company="Immoweb" website="www.immoweb.be" year="2015-2016" keywords={[
         'Swift', 
         'Core Data', 
-        'NSOperation', 
-        'XCTest']} />
+        'Localization', 
+        'Jenkins',
+        'XCTest',
+        'XCUITest']} />
 
         <div className="Details"> 
         <img src="https://cl.ly/e69d2f9922d0/Immoweb.jpg" />
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        <p>Immoweb is the Belgian real estate platform. Their app is one of the most downloaded app in the country.
         </p>
 
         <p>
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        While I was there, I increased the test coverage by 15% while reducing the crash rates to less than 0.4%.
         </p>
 
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        I also put a lot of work on improving the continuous integration environment (Jenkins) and created many different automated UI tests.
         </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        <p>All these led to better rankings on the App Store and a more stable app.
         </p>
         </div>
     </div>

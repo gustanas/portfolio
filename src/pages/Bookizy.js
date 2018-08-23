@@ -10,27 +10,25 @@ const ProjectDetails = () => (
     </div>
    
     <div className="Content">
-        <Metadata company="Immoweb" website="www.dilemme.co" keywords={['Objective-C', 
+        <Metadata company="Bookizy" website="" year="2016" keywords={[ 
         'Swift', 
-        'Core Data', 
-        'NSOperation', 
-        'XCTest']} />
+        'Auto Layout',
+        'Go', 
+        'PostgreSQL']} />
 
         <div className="Details"> 
         <img src="https://cl.ly/149f92fd80df/Bookizy.png" />
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        <p>
+          Bookizy is a social and professional platform that allows users to arrange activities with friends or to book an appointment with their doctor, hairdresser or other professionals. 
         </p>
 
         <p>
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          I worked remotely as the lead developer and single-handedly implemented the first version of the iOS app (Swift) and the backend (Go).
         </p>
 
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        </p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          I had the opportunity to open source some of the libraries used in the project along the way. You'll be able to find them on my <a href="https://github.com/gustanas">Github</a> page.
         </p>
         </div>
     </div>
