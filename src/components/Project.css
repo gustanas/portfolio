@@ -1,0 +1,8 @@
+.Project {
+    width: 100%;
+}
+
+.Project img {
+    width: 100%;
+    max-width: 580px;
+}
