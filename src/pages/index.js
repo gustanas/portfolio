@@ -31,16 +31,16 @@ const IndexPage = () => (
           
           <p>Software should be painless, the developer's job is to transform the difficult into the easy. </p>
 
-          <p>I am available for contract work, feel free to take a look at my <a href={resume}>resume</a></p> 
+          <p>I am available for contract work, feel free to take a look at my <a href={resume} target="_blank">resume</a></p> 
 
           <em>Experience, learn, teach, repeat.</em>
           
           <div className="Icons">
-            <a href="https://twitter.com/gusta_nas"><FontAwesomeIcon icon={['fab', 'twitter']} size="sm"/></a>
+            <a href="https://twitter.com/gusta_nas" target="_blank"><FontAwesomeIcon icon={['fab', 'twitter']} size="sm"/></a>
             
-            <a href="https://github.com/gustanas"><FontAwesomeIcon icon={['fab', 'github']} size="sm"/></a>
+            <a href="https://github.com/gustanas" target="_blank"><FontAwesomeIcon icon={['fab', 'github']} size="sm"/></a>
 
-            <a href="https://www.linkedin.com/in/gustavo-nascimento/"><FontAwesomeIcon icon={['fab', 'linkedin']} size="sm"/></a>
+            <a href="https://www.linkedin.com/in/gustavo-nascimento/" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin']} size="sm"/></a>
 
             <a href="mailto:gusta.nas@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="sm"/></a>
           </div>
