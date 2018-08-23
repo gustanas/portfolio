@@ -3,11 +3,14 @@ import Link from 'gatsby-link'
 
 import resume from '../pages/GustavoNascimento.pdf'
 
-import { library } from '@fortawesome/fontawesome-svg-core'
+import { library, config } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 import { fab } from '@fortawesome/free-brands-svg-icons'
+
+config.autoAddCss = false
+
 
 library.add(fab, faEnvelope)
 
@@ -33,13 +36,13 @@ const IndexPage = () => (
           <em>Experience, learn, teach, repeat.</em>
           
           <div className="Icons">
-            <a href="https://twitter.com/gusta_nas"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
+            <a href="https://twitter.com/gusta_nas"><FontAwesomeIcon icon={['fab', 'twitter']} size="sm"/></a>
             
-            <a href="https://github.com/gustanas"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+            <a href="https://github.com/gustanas"><FontAwesomeIcon icon={['fab', 'github']} size="sm"/></a>
 
-            <a href="https://www.linkedin.com/in/gustavo-nascimento/"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+            <a href="https://www.linkedin.com/in/gustavo-nascimento/"><FontAwesomeIcon icon={['fab', 'linkedin']} size="sm"/></a>
 
-            <a href="mailto:gusta.nas@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href="mailto:gusta.nas@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="sm"/></a>
           </div>
         </div>
     </div>
