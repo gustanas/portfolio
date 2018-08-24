@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-
+import NavigationBar from '../components/navigationBar';
 import resume from '../pages/GustavoNascimento.pdf'
 
 import { library, config } from '@fortawesome/fontawesome-svg-core'
@@ -18,6 +18,7 @@ library.add(fab, faEnvelope)
 
 const IndexPage = () => (
   <div>
+    {/* <NavigationBar homeIsActive={true} ></NavigationBar> */}
     <div className="Main">
         <div className="Left">
             <div className= "Rectangle">     </div>
@@ -29,9 +30,7 @@ const IndexPage = () => (
             
           <p>I helped different companies across Europe and Asia, my code has run on hundreds of thousands of devices. You can find some of my work <Link to="/projects">here</Link>. </p>
           
-          <p>Software should be painless, the developer's job is to transform the difficult into the easy. </p>
-
-          <p>I am available for contract work, feel free to take a look at my <a href={resume} target="_blank">resume</a></p> 
+          <p>As a developper, I aim to write software that's easy to use.I am available for contract work, feel free to take a look at my <a href={resume} target="_blank">resume</a></p>
 
           <em>Experience, learn, teach, repeat.</em>
           
