@@ -1,24 +1,21 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import NavigationBar from '../components/navigationBar';
+import Bar from '../components/bar';
 import resume from '../pages/GustavoNascimento.pdf'
 
 import { library, config } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
 config.autoAddCss = false
-
-
 library.add(fab, faEnvelope)
-
-
 
 const IndexPage = () => (
   <div>
-    {/* <NavigationBar homeIsActive={true} ></NavigationBar> */}
+    <Bar></Bar>
+    <NavigationBar homeIsActive={true} ></NavigationBar>
     <div className="Main">
         <div className="Left">
             <div className= "Rectangle">     </div>

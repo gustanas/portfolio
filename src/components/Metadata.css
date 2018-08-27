@@ -1,15 +1,16 @@
 .Metadata h1 {
     opacity: 0.9;
     font-size: 22px;
-    font-weight: lighter;
     margin-top: 0px;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .Metadata h2 {
     margin-top: 0px;
     font-size: 20px;
-    opacity: 0.2;
-    font-weight: lighter;
+    opacity: 0.4;
+    font-weight: 300;
     margin-bottom: 10px;
+    line-height: 1.3;
 }

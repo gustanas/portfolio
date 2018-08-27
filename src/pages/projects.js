@@ -1,9 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Project from '../components/project';
+import NavigationBar from '../components/navigationBar';
+import Bar from '../components/bar';
 
 const ProjectsPage = () => (
   <div>
+    <Bar></Bar>
+    <NavigationBar projectsIsActive={true} ></NavigationBar>
     <div className="Main">
         <div className="Left">
             <div className= "Rectangle"></div>

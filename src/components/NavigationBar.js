@@ -6,7 +6,8 @@ class NavigationBar extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            homeIsActive: false
+            homeIsActive: false,
+            projectsIsActive: false
           }
         
         if (this.props.homeIsActive) {
@@ -14,7 +15,11 @@ class NavigationBar extends React.Component {
         }
 
         if (this.props.projectsIsActive) {
-            this.state.homeIsActive = true
+            this.state.projectsIsActive = true
+        }
+
+        if (this.props.contactIsActive) {
+            this.state.contactIsActive = true
         }
     
     }
@@ -24,13 +29,13 @@ class NavigationBar extends React.Component {
         return (
             <div className="NavigationBar">  
             <div className={this.state.homeIsActive ? 'Active' : 'NotActive'}>
-            <h2>Home</h2>
+            <h2><Link to="/">Home</Link></h2>
             </div>
             <div className={this.state.projectsIsActive ? 'Active' : 'NotActive'}>
-            <h2>Projects</h2>
+            <h2><Link to="/projects">Projects</Link></h2>
             </div>
-            <div className={this.state.projectsIsActive ? 'Active' : 'NotActive'}>
-            <h2>Contact</h2>
+            <div className={this.state.contactIsActive ? 'Active' : 'NotActive'}>
+            <h2><a href="mailto:gusta.nas@gmail.com">Contact</a></h2>
             </div>
             </div>
         )

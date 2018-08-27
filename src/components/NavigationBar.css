@@ -1,6 +1,6 @@
 .NavigationBar {
     width: 300px;
-    margin: auto;
+    margin: 25px auto 0;
     display: grid;
 	grid-template-columns: repeat(3, auto);
 	align-items: center;
@@ -10,12 +10,20 @@
     font-size: 12px;
 }
 
-.NavigationBar .NotActive {
+.NavigationBar .NotActive h2 {
     opacity: 0.4;
-    font-weight: 100;
+    font-weight: 400;
 }
 
-.NavigationBar .Active {
+.NavigationBar .Active h2 {
     opacity: 1.0;
-    font-weight: 900;
+    color: #81D9FA;
+    font-weight: 400;
+}
+
+.NavigationBar .NotActive h2:hover {
+    transition: all 200ms linear;
+    color: #81D9FA;
+    opacity: 1.0;
+    font-weight: 400;
 }
