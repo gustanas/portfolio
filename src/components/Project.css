@@ -4,5 +4,51 @@
 
 .Project img {
     width: 100%;
+    height: auto;
     max-width: 580px;
+    display:block;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
+
+.Image {
+    background-color: #81D9FA;
+    position:relative;
+}
+
+.Image h1 {
+    margin: 0px;
+    bottom: -30%;
+    left: -10%;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: 15.0vw;
+    opacity: 0.0;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.Image:hover h1 {
+    animation: RightAnimation;
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+}
+
+.Image:hover img {
+    opacity: 0;
+}
+
+@keyframes RightAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(100px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+  }
