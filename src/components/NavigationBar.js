@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import './NavigationBar.css'
+import resume from '../pages/GustavoNascimento.pdf'
 
 class NavigationBar extends React.Component {
     constructor(props) {
@@ -36,6 +37,9 @@ class NavigationBar extends React.Component {
             </div>
             <div className={this.state.contactIsActive ? 'Active' : 'NotActive'}>
             <h2><a href="mailto:gusta.nas@gmail.com">Contact</a></h2>
+            </div>
+            <div className={this.state.contactIsActive ? 'Active' : 'NotActive'}>
+            <h2><a href={resume} target="_blanck">Resume</a></h2>
             </div>
             </div>
         )
