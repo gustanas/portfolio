@@ -53,6 +53,16 @@
     text-decoration: none;
 }
 
+@media (max-width: 640px) {
+    .Content {
+        grid-template-columns: 100%;
+    }
+
+    .Metadata {
+        margin-bottom: 30px;
+    }
+}
+
 @keyframes RightAnimation {
     0% {
         opacity: 0;
@@ -62,4 +72,4 @@
         opacity: 0.9;
         transform: translateY(0px)
     }
-  }
+}

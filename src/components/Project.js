@@ -5,11 +5,13 @@ import './Project.css'
 
 const Project = props => (
 	<div className="Project">
-		<h3><Link to={props.link} target="_blank">{props.title}</Link></h3>
+		<Link to={props.link} target="_blank">
+		<h3>{props.title}</h3>
 		<div className="Image">
-			<Link to={props.link} target="_blank"><img src={props.image}/></Link>
+			<img src={props.image}/>
 			<h1>{props.number}</h1>
 		</div>
+		</Link>
 	</div>
 )
 

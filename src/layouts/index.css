@@ -12,7 +12,7 @@ body {
 
 .Main {
   display: grid;
-	grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, auto);
 	align-items: center;
   justify-items: center;
   
@@ -58,17 +58,6 @@ body {
   }
 }
 
-@media (max-width: 640px) {
-  .Left h1 {
-    font-size: 7.0vw;
-  }
-
-  .Rectangle {
-    max-width: 200px;
-  }
-}
-
-
 .Right {
   font-size: 18px;
   position: absolute;
@@ -89,17 +78,6 @@ body {
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-@keyframes RightAnimation {
-  0% {
-	  opacity: 0;
-	  transform: translateY(20px)
-  }
-  100% {
-	  opacity: 0.9;
-	  transform: translateY(0px)
-  }
-}
-
 .Projects {
   position: absolute;
   top: 34vh;
@@ -115,6 +93,51 @@ body {
   animation-delay: 0.1s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (max-width: 640px) {
+  .Main {
+    grid-template-columns: 100%;
+  }
+
+  .Projects,
+  .Right {
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    position: relative;
+    width: 80%;
+  }
+
+  .Projects {
+    top: 0%;
+  }
+
+  .Left {
+    margin: auto;
+  }
+
+  .Left h1 {
+    top: 0%;
+    bottom: 0%;
+    position: relative;
+    font-size: 7.0vw;
+  }
+
+  .Rectangle {
+    max-width: 200px;
+  }
+}
+
+@keyframes RightAnimation {
+  0% {
+	  opacity: 0;
+	  transform: translateY(20px)
+  }
+  100% {
+	  opacity: 0.9;
+	  transform: translateY(0px)
+  }
 }
 
 .Icons {

@@ -51,4 +51,12 @@
         opacity: 1;
         transform: translateY(0px)
     }
-  }
+}
+
+@media (max-width: 640px) {
+    .Image h1 {
+        bottom: -30%;
+        left: -10%;
+        font-size: 30.0vw;
+    }
+}
