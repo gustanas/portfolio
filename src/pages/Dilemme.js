@@ -34,9 +34,17 @@ const ProjectDetails = () => (
           </p>
 
           <p>
-            I was relying on Parse SDK for the backend and unfortunately had to discontinue the app when Parse was shut down. Nevertheless, it was a very fun project and I was able to learn a lot about animations and Sketch:
+            I was relying on Parse SDK for the backend and unfortunately had to discontinue the app when Parse was shut down. Nevertheless, it was a very fun project and I was able to learn a lot about UI animations and Sketch.
           </p>
 
+          <br></br>
+
+          <div className="Screenshots">
+            <img src="https://media.giphy.com/media/10VhHeFxjKpaus/giphy.gif" />
+          </div>
+
+          <br></br>
+          <br></br>
           
           </div>
       </div>
