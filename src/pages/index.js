@@ -27,7 +27,7 @@ const IndexPage = () => (
             
           <p>I helped different companies across Europe and Asia, my code has run on hundreds of thousands of devices. You can find some of my work <Link to="/projects">here</Link>. </p>
           
-          <p>As a developper, I aim to write software that's easy to use. I am available for contract work, feel free to take a look at my <a href={resume} target="_blank">resume</a></p>
+          <p>As a developer, I aim to write software that's easy to use. I am available for contract work, feel free to take a look at my <a href={resume} target="_blank">resume</a></p>
 
           <em>Experience, learn, teach, repeat.</em>
           
