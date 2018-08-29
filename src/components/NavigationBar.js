@@ -36,10 +36,10 @@ class NavigationBar extends React.Component {
             <h2><Link to="/projects">Projects</Link></h2>
             </div>
             <div className={this.state.contactIsActive ? 'Active' : 'NotActive'}>
-            <h2><a href="mailto:gusta.nas@gmail.com">Contact</a></h2>
+            <h2><a href={resume} target="_blanck">Resume</a></h2>
             </div>
             <div className={this.state.contactIsActive ? 'Active' : 'NotActive'}>
-            <h2><a href={resume} target="_blanck">Resume</a></h2>
+            <h2><a href="mailto:gusta.nas@gmail.com">Contact</a></h2>
             </div>
             </div>
         )
