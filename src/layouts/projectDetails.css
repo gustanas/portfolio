@@ -48,10 +48,10 @@
 }
 
 .Details a {
-    color: #5334F5;
-    font-weight: 600;
+    color: #81D9FA;
+    font-weight: 700;
     text-decoration: none;
-}
+  }
 
 @media (max-width: 640px) {
     .Content {
@@ -60,6 +60,12 @@
 
     .Metadata {
         margin-bottom: 30px;
+    }
+
+    .ProjectDetails {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
     }
 }
 

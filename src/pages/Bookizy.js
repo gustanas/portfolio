@@ -29,7 +29,7 @@ const ProjectDetails = () => (
           </p>
 
           <p>
-            I worked remotely as the lead developer and single-handedly implemented the first version of the iOS app (Swift) and the backend (Go).
+            I worked remotely as the lead developer and single-handedly implemented the first version of the iOS app (Swift) and the backend (Go). I implemented a real time chat system and coordinated the project with the Android team.
           </p>
 
           <p>

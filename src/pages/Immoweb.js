@@ -30,15 +30,16 @@ const ProjectDetails = () => (
           </p>
 
           <p>
-          While I was there, I increased the test coverage by 15% while reducing the crash rates to less than 0.4%.
+          Besides developing new features in Swift, I also increased the test coverage by 15% while reducing the crash rates to less than 0.4%.
           </p>
 
           <p>
-          I also put a lot of work on improving the continuous integration environment (Jenkins) and created many different automated UI tests.
+          I also put a lot of work on improving the continuous integration environment (Jenkins) and created many different automated UI tests. Later on, I worked on creating a shared code base for the iPad version of Immoweb.
           </p>
 
           <p>All these led to better rankings on the App Store and a more stable app.
           </p>
+
           </div>
       </div>
     </div>

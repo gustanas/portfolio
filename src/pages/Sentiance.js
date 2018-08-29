@@ -37,10 +37,11 @@ const ProjectDetails = () => (
           </p>
 
           <p>
-          My task was to accurately track the user location in the background. I stored and uploaded sensor data with low battery impact (~5% daily). I increased the test coverage by 50% and then refactored the whole SDK.
+          My task was to accurately track the user location during the different execution states of an iOS app. I stored and uploaded sensor data with low battery impact (~5% daily). I increased the test coverage by 50% and then refactored the whole SDK.
           </p>
+
           <p>
-          I also had to conduct international clients support calls and interviewed dozens of candidates.
+          I also served as squad lead and had to conduct international clients support calls. I interviewed dozens of candidates and coordinated the work among the different iOS developers.
           </p>
 
           </div>

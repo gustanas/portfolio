@@ -26,15 +26,15 @@ const ProjectDetails = () => (
           <div className="Details"> 
           <img src="https://cl.ly/bf6d89c19bd8/Dilemme.png" />
 
-          <p>Dilemme is a fashion voting app and it was the first app I developped and designed.
+          <p>Dilemme is a fashion voting app and it was the first app I developed and designed.
           </p>
 
           <p>
-          I was accepted in a startup accelerator program thanks to it. I was selected as one of the 8 finalists out of 50 teams.
+          Dilemme got me accepted in Belgium’s first TechStars-style startup accelerator. I was selected as one of the 8 finalists out of 50 teams.
           </p>
 
           <p>
-            I was relying on Parse SDK for the backend and unfortunately had to discontinue the app when Parse was shut down. Nevertheless, it was a very fun project and I was able to experiment a lot with animations and Sketch:
+            I was relying on Parse SDK for the backend and unfortunately had to discontinue the app when Parse was shut down. Nevertheless, it was a very fun project and I was able to learn a lot about animations and Sketch:
           </p>
 
           
