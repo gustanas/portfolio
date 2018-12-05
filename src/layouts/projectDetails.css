@@ -61,6 +61,12 @@
     height: auto;
 }
 
+.DownloadButton {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
 @media (max-width: 640px) {
     .Content {
         grid-template-columns: 100%;
